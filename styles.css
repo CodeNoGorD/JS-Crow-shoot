@@ -1,0 +1,20 @@
+body{
+    background: -webkit-linear-gradient(125deg, transparent 0%,red,green, blue);
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;  /* A enlever si ca gêne */
+}
+
+#canvas1{
+    position:  absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    cursor: crosshair;
+}
+
+#collisionCanvas{
+   opacity : 0;
+}
